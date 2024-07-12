@@ -1,0 +1,233 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.search-bar {
+    text-align: center;
+    margin: 20px 0;
+}
+.search-bar input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.image-section {
+    text-align: center;
+    margin: 40px 0;
+}
+.image-section img {
+    width: 300px;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 8px;
+}
+.pricing-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+.pricing-table th, .pricing-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+.pricing-table th {
+    background-color: #333;
+    color: white;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-column {
+    width: 22%;
+}
+.footer-column h3 {
+    border-bottom: 1px solid #777;
+    padding-bottom: 10px;
+}
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin: 10px 0;
+    text-decoration: none;
+}
+.footer-column img{
+    width: 30px;
+}
+.icono{
+   text-decoration: none;
+   color: #fff;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #464646;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.logo img {
+    width: 200px; /* Ancho del logo */ 
+    height: auto; /* Altura ajustada automáticamente */
+}
+
+.menu {
+    flex: 1;
+    text-align: right; /* Alinear el contenido a la derecha */
+}
+
+.menu form {
+    display: inline-block;
+    position: relative; /* Para posicionar la imagen dentro del formulario */
+}
+
+.menu input[type="text"] {
+    padding: 8px 35px 8px 8px; /* Ajuste del espacio para el cuadro de búsqueda */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.menu input[type="image"] {
+    width: 20px; /* Ancho de la imagen de búsqueda */
+    height: auto; /* Altura ajustada automáticamente */
+    position: absolute;
+    right: 5px; /* Ajustar según sea necesario */
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.elementos-derecha {
+    flex: 1;
+    text-align: right;
+}
+
+.elementos-derecha button {
+    margin-left: 20px;
+    color: rgb(30, 11, 205);
+    text-decoration: none;
+    display: inline-block; /* Para controlar el tamaño del cuadro */
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.correo{
+    text-decoration: none;
+    color: #fff;
+}
+.elementos-derecha img{
+    justify-content: space-around;
+}
+.columna1{
+    text-decoration: none;
+    color: #fff;
+}
+/* son parte del footer*/
+.politica{
+    text-align: justify;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 110%;
+}
+.politica h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.presentacion{
+    text-align: justify;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 110%;
+}
+.presentacion h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.contrato{
+    text-align: justify;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 110%;
+}
+.contrato h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+/* aqui empieza el mio. xuya */
+/*.globales */
+.productos-disponibles ::after
+.productos-disponibles ::before
+.productos-disponibles{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxy;
+
+}
+main{
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family:"lato";
+    color: black;
+
+}
+.icon-cart{
+width: 40px;
+height: 40px;
+}
+.productos-disponibles img {
+    max-width: 100%;
+}
+
+
+
+
+
+/* main */
+.container-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.item{
+    border-radius: 10px;
+}
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0,0, 0, 20);
+}
