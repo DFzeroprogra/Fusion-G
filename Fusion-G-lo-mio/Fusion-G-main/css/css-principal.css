@@ -151,6 +151,45 @@ nav {
     text-decoration: none;
     color: #fff;
 }
+/* son parte del footer*/
+.politica{
+    text-align: justify;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 110%;
+}
+.politica h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.presentacion{
+    text-align: justify;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 110%;
+}
+.presentacion h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.contrato{
+    text-align: justify;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 110%;
+}
+.contrato h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+
 /* aqui empieza el mio. xuya */
 /*.globales */
 .productos-disponibles ::after
@@ -192,93 +231,3 @@ height: 40px;
 .item:hover{
     box-shadow: 0 10px 20px rgba(0,0, 0, 20);
 }
-
-.item img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px 10px 0 0;
-    transition: all .5s;
-
-}
-.item figure{ 
-    overflow: hidden;
-}
-
-
-.item:hover img{
-    transform: scale(1.2);
-}
-.info-product{
-    padding: 15px 30px;
-    line-height: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.price{ 
-    font-size: 18px;
-    font-weight: 900;
-
-}
-.info-product{ 
-    border: none;
-    background: none;
-    background-color: black;
-    color: aliceblue;
-    padding: 15px 10px;
-    cursor: pointer;
-}
-.productos-disponibles {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  .producto {
-    width: 25%;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    margin: 10px;
-  }
-  
-  .producto figure {
-    margin: 0;
-  }
-  
-  .producto img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px 10px 0 0;
-  }
-  
-  .info-producto {
-    padding: 20px;
-  }
-  
-  .info-producto h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .precio {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 20px;
-  }
-  
-  .btn-add-cart {
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  .btn-add-cart:hover {
-    background-color: #3e8e41;
-  }
-  
-
