@@ -151,17 +151,17 @@ nav {
     text-decoration: none;
     color: #fff;
 }
-/* aqui empieza el mio */
+/* aqui empieza el mio. xuya */
 /*.globales */
-*::after
-*::before
-*{
+.productos-disponibles ::after
+.productos-disponibles ::before
+.productos-disponibles{
     margin: 0;
     padding: 0;
     box-sizing: border-boxy;
 
 }
-body{
+main{
     margin: 0 auto;
     max-width: 1200px;
     font-family:"lato";
@@ -172,15 +172,8 @@ body{
 width: 40px;
 height: 40px;
 }
-img {
+.productos-disponibles img {
     max-width: 100%;
-}
-/*header*/
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 0 40px;
-
 }
 
 
